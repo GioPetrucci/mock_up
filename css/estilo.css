@@ -1,0 +1,420 @@
+pmmmf* {
+	margin:0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: sans-serif;
+}
+
+body {
+	background: url('../img/background.jpg');
+	background-repeat: repeat;
+	height: 1080px;
+}
+
+/*----------Encabezado----------*/
+header {
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	height: 83px;
+	background: url('../img/cabezote.jpg');
+}
+
+#logo {
+	position: absolute;
+	top: 17px;
+	left: 16px;
+	width: 188px;
+	height: 46px;
+	/*background: rgba(0, 0, 255, .5);*/
+}
+
+/*----------Barra de navegación----------*/
+nav	{
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	height: 45px;
+	/*background: rgba(255, 0, 0, .5);*/
+	border-bottom: 1px solid #bcd1cb;
+	background: url('../img/nav.jpg');
+}
+
+nav ul {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 500px;
+	height: 45px;
+	/*background: rgba(0, 255, 0, .5);*/
+}
+
+nav ul li {
+	float: left;
+	width: 124px;
+	line-height: 45px;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	/*background: rgba(0, 0, 255, .5);*/
+	border-right: 1px solid white;
+}
+
+/*----------Slide----------*/
+#slide {
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	height: 301px;
+	/*background: rgba(0, 0, 255, .5);*/
+}
+
+#botoneraSlide {
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	height: 26px;
+	background: url('../img/backBotonesSlide.jpg');
+}
+
+#botoneraSlide ul {
+	position: relative;
+	margin: auto;
+	width: 100px;
+	height: 26px;
+	/*background: rgba(255, 255, 0, .5);*/
+}
+
+#botoneraSlide ul li{
+	float: left;
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	background: #232d80;
+	border: 3px solid white;
+	margin: 2px;
+}
+
+/*----------Section Inicio----------*/
+section#inicio {
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	height: 299px;
+	background: white;
+}
+
+section#inicio ul li {
+	float: left;
+	width: 333px;
+	height: 299px;
+	/*background: rgba(0, 255, 255, .5);*/
+}
+
+section#inicio ul li h1 {
+	margin: 25px 28px;
+	font-weight: 100;
+	font-size: 25px;
+}
+
+section#inicio ul li p {
+	margin: 23px 30px;
+	font-size: 15px;
+}
+
+section#inicio ul li img {
+	margin: -2px 30px;
+	width: 273px;
+	height: 83px;
+	background: gray
+}
+
+/*----------Section Quiénes somos----------*/
+section#quienesSomos {
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	height: 299px;
+	/*background: url('../img/quienessomos.jpg');*/
+	background: white;
+}
+
+section#quienesSomos h1 { 
+	position: relative;
+	top: 15px;
+	left: 27px;
+	color: #1f1d21;
+	font-weight: 100;
+}
+
+section#quienesSomos hr {
+	position: relative;
+	top: 20px;
+	width: 950px;
+	margin: auto;
+	border: 1px solid #c6c6c6;
+}
+
+section#quienesSomos p {
+	position: relative;
+	top: 40px;
+	width: 950px;
+	margin: auto;
+	color: #414042;
+}
+
+section#quienesSomos img {
+	float: left;
+	width: 272px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+/*----------Section Servicios----------*/
+section#servicios {
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	height: 299px;
+	background: white;
+}
+
+section#servicios #cajaServicios {
+	position: relative;
+	margin: auto;
+	top: 18px;
+	width: 935px;
+	height: 262px;
+	box-shadow: 0 0 10px #000;
+}
+
+section#servicios #cajaServicios ul#lista {
+	position: absolute;
+	top: 20px;
+	left: 15px;
+	width: 151px;
+	height: 220px;
+}
+
+section#servicios #cajaServicios ul#lista li {
+	width: 151px;
+	height: 72px;
+	margin: 2px 0;
+	cursor: pointer;
+}
+
+section#servicios #cajaServicios ul#visor {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 733px;
+	height: 220px;
+}
+
+section#servicios #cajaServicios ul#visor li {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 733px;
+	height: 220px;
+}
+
+section#servicios #cajaServicios ul#visor li h1 {
+	position: absolute;
+	z-index: 1;
+	top: 20px;
+	left: 20px;
+	color: #4d545a;
+	font-weight: 100;
+}
+
+section#servicios #cajaServicios ul#visor li p {
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	color: white;
+	width: 97%;
+	line-height: 60px;
+	padding-left: 20px;
+}
+
+/*----------Section Contáctenos----------*/
+section#contactenos {
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	height: 299px;
+	background: white;
+}
+
+section#contactenos form {
+	position: relative;
+	margin: auto;
+	top: 30px;
+	width: 909px;
+	height: 234px;
+	background: white;
+}
+
+section#contactenos form input#nombre {
+	position: absolute;
+	padding: 10px;
+	width: 273px;
+	height: 47px;
+	background: #dce9d7;
+	border: 0;
+}
+
+section#contactenos form input#email {
+	position: absolute;
+	top: 83px;
+	padding: 10px;
+	width: 273px;
+	height: 47px;
+	background: #dce9d7;
+	border: 0;
+}
+
+section#contactenos form input#asunto {
+	position: absolute;
+	padding: 10px;
+	width: 273px;
+	height: 47px;
+	bottom: 0;
+	background: #dce9d7;
+	border: 0;
+}
+
+section#contactenos form #mensaje {
+	position: absolute;
+	right: 0;
+	padding: 10px;
+	width: 581px;
+	height: 131px;
+	background: #dce9d7;
+	border: 0;
+}
+
+section#contactenos form input#enviar {
+	position: absolute;
+	padding: 10px;
+	width: 605px;
+	height: 67px;
+	bottom: 0;
+	right: 0;
+	background: #1a1d20;
+	border: 0;
+	color: white;
+}
+
+/*----------Bottom----------*/
+
+#bottom {
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	height: 190px;
+	background: url('../img/backBottom.jpg');
+}
+
+#bottom ul li {
+	float: left;
+	width: 250px;
+	height: 190px;
+	/*background: rgba(0, 0, 255, .5);*/
+}
+
+#bottom ul li h1 {
+	margin: 13px 18px;
+	color: white;
+	font-size: 18px;
+	font-weight: 100;
+}
+
+#bottom ul li ol {
+	position: relative;
+	top: 15px;
+	left: 17px;
+	width: 190px;
+	height: 80px;
+	/*background: rgba(255, 0, 0, .5);*/
+}
+
+#bottom ul li ol li {
+	height: 20px;
+	text-align: left;
+	list-style: inside;
+	font-size: 15px;
+	color: white;
+	list-style-image: url('../img/list.png');
+}
+
+#bottom ul li img {
+	position: relative;
+	top: 15px;
+	left: 15px;
+	width: 95px;
+	height: 95px;
+	border: 4px solid white;
+	background-size: cover;
+}
+
+#bottom ul li ul {
+	position: relative;
+	top: 11px;
+	left: 15px;
+	width: 200px;
+	height: 40px;
+	/*background: rgba(255, 0, 255, .5);*/
+}
+
+#bottom ul li ul li {
+	float: left;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	background: white;
+	margin: 5px;
+}
+
+#bottom ul li ul li:first-child {
+	background: url('../img/facebook.jpg');
+	background-size: cover;
+}
+
+#bottom ul li ul li:nth-child(2) {
+	background: url('../img/iconoGoogle.jpg');
+	background-size: cover;
+}
+
+#bottom ul li ul li:nth-child(3) {
+	background: url('../img/iconoPinterest.jpg');
+	background-size: cover;
+}
+
+#bottom ul li ul li:last-child {
+	background: url('../img/iconoTwitter.jpg');
+	background-size: cover;
+}
+
+#bottom ul li ul li a {
+	float: left;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+}
+
+/*----------Footer----------*/
+footer {
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	height: 62px;
+	background: black;
+	text-align: center;
+	color: white;
+	line-height: 62px;
+	font-size: 15px;
+
+}
